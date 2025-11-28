@@ -1,8 +1,9 @@
 package kadai_018;
 
-public class KatoIchiro_Chapter18 extends KatoTaro_Chapter18 {
+public class KatoIchiro_Chapter18 extends Kato_Chapter18 {
 	
 	public void eachIntroduce() {
+		commonlntrobuce();
 		System.out.println("好きな食べ物はリンゴです");
 	}
 	
