@@ -6,10 +6,6 @@ public abstract class Kato_Chapter18 {
 	public String givenName;
 	public String address    = "東京都中野区〇×";
 	
-	public void setGivenName( String name ) {
-		this.givenName = name;
-	}
-	
 	public void commonlntrobuce() {
 		System.out.println("名前は" + familyName + givenName + "です");
 		System.out.println("住所は" + address + "です");
